@@ -1,0 +1,127 @@
+# --- Окружение ---
+.env
+
+
+
+# --- Изображения (Images) ---
+# Растровые форматы
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.ico
+*.heic
+*.heif
+*.avif
+
+# Профессиональные / RAW форматы (фотокамеры)
+*.raw
+*.cr2
+*.nef
+*.orf
+*.sr2
+*.dng
+*.arw
+*.rw2
+
+# Векторные и исходники редакторов (Adobe, etc.)
+# Оставьте закомментированным, если это исходники дизайна, которые нужны в репо
+*.psd
+*.ai
+*.eps
+*.svg
+*.cdr
+*.xcf
+
+# --- Видео (Video) ---
+# Основные форматы
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.m4v
+
+# Профессиональные / Старые форматы
+*.3gp
+*.mpg
+*.mpeg
+*.m2ts
+*.mts
+*.vob
+*.ts
+*.ogv
+
+# Проекты видеоредакторов (Premiere, DaVinci, AE)
+*.prproj
+*.drp
+*.aep
+
+# --- Аудио (Audio) ---
+# Сжатые форматы
+*.mp3
+*.aac
+*.ogg
+*.wma
+*.m4a
+*.opus
+
+# Форматы без потерь (Lossless) / Профессиональные
+*.wav
+*.flac
+*.aiff
+*.alac
+*.pcm
+
+# Проекты DAW (Ableton, FL Studio, Logic)
+*.als
+*.flp
+*.logicx
+
+# --- Документы и Офис (Documents) ---
+# Microsoft Office
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.pst
+
+# OpenOffice / LibreOffice
+*.odt
+*.ods
+*.odp
+
+# Другие текстовые данные и верстка
+*.pdf
+*.rtf
+*.tex
+*.epub
+*.mobi
+*.djvu
+
+# Данные (часто генерируемые скриптами)
+*.csv
+*.xml
+# *.json # Будьте осторожны, иногда JSON нужен для конфигов
+*.log
+*.sql
+*.sqlite
+*.db
+
+# --- Полезное дополнение для Python-проекта ---
+# Вы работаете с Python, поэтому эти строки обязательны, 
+# чтобы не коммитить кэш и виртуальные окружения.
+
+__pycache__/
+*.pyc
+venv/
+.env
+.DS_Store
